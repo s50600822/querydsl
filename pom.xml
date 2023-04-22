@@ -35,7 +35,7 @@
     </excludedGroups>
 
     <!-- groups to run with surefire plugin - intended to be overridden on the command line -->
-    <includedGroups></includedGroups>
+    <includedGroups/>
 
     <argLine>-Xms256m -Xmx512m</argLine>
 
@@ -121,7 +121,7 @@
       <dependency>
         <groupId>org.jetbrains</groupId>
         <artifactId>annotations</artifactId>
-        <version>23.0.0</version>
+        <version>23.1.0</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -689,7 +689,7 @@
     </plugins>
   </build>
 
-  <pluginRepositories />
+  <pluginRepositories/>
 
   <profiles>
     <profile>
