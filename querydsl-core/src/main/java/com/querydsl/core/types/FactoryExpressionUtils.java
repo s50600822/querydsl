@@ -30,7 +30,7 @@ public final class FactoryExpressionUtils {
     /**
      * {@code FactoryExpressionAdapter} provides an adapter implementation of the {@link FactoryExpression} interface
      *
-     * @param <T>
+     * @param <T> the type
      */
     public static class FactoryExpressionAdapter<T> extends ExpressionBase<T> implements FactoryExpression<T> {
 

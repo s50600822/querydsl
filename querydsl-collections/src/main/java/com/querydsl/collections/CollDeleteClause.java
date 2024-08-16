@@ -25,7 +25,7 @@ import com.querydsl.core.types.Predicate;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class CollDeleteClause<T> implements DeleteClause<CollDeleteClause<T>> {
 

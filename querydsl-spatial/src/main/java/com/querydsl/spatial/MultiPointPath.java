@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class MultiPointPath<T extends MultiPoint> extends MultiPointExpression<T> implements Path<T> {
 

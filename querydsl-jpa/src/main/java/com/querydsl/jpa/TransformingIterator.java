@@ -25,7 +25,7 @@ import com.querydsl.core.types.FactoryExpression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class TransformingIterator<T> implements CloseableIterator<T> {
 

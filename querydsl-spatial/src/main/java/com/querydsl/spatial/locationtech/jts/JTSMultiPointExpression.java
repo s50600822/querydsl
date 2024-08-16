@@ -23,7 +23,7 @@ import org.locationtech.jts.geom.MultiPoint;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSMultiPointExpression<T extends MultiPoint> extends JTSGeometryCollectionExpression<T> {
 

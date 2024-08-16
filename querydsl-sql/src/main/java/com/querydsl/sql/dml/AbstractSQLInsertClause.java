@@ -155,7 +155,7 @@ public abstract class AbstractSQLInsertClause<C extends AbstractSQLInsertClause<
      * given path. If no rows were created, null is returned, otherwise the key
      * of the first row is returned.
      *
-     * @param <T>
+     * @param <T> the type
      * @param path path for key
      * @return generated key
      */
@@ -170,7 +170,7 @@ public abstract class AbstractSQLInsertClause<C extends AbstractSQLInsertClause<
      * If no rows were created, null is returned, otherwise the key of the first
      * row is returned.
      *
-     * @param <T>
+     * @param <T> the type
      * @param type type of key
      * @return generated key
      */
@@ -203,7 +203,7 @@ public abstract class AbstractSQLInsertClause<C extends AbstractSQLInsertClause<
      * generated key, null is returned. Otherwise, the key of the first row is
      * returned.
      *
-     * @param <T>
+     * @param <T> the type
      * @param path path for key
      * @return generated keys
      */

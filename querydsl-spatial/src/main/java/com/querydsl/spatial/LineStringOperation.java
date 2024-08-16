@@ -26,7 +26,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class LineStringOperation<T extends LineString> extends LineStringExpression<T> implements Operation<T> {
 

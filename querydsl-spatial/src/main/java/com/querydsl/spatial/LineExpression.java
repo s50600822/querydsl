@@ -22,7 +22,7 @@ import com.querydsl.core.types.Expression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class LineExpression<T extends LineString> extends LineStringExpression<T> {
 

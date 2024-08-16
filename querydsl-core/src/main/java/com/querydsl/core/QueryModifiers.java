@@ -106,7 +106,7 @@ public final class QueryModifiers implements Serializable {
     /**
      * Get a sublist based on the restriction of limit and offset
      *
-     * @param <T>
+     * @param <T> the type
      * @param list list to be handled
      * @return sublist with limit and offset applied
      */

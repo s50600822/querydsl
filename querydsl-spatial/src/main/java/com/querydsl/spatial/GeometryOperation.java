@@ -26,7 +26,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class GeometryOperation<T extends Geometry> extends GeometryExpression<T> implements Operation<T> {
 

@@ -21,7 +21,7 @@ import com.vividsolutions.jts.geom.LineString;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSLinearRingExpression<T extends LineString> extends JTSLineStringExpression<T> {
 

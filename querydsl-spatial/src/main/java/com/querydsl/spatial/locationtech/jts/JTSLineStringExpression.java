@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSLineStringExpression<T extends LineString> extends JTSCurveExpression<T> {
 

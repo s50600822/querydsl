@@ -24,7 +24,7 @@ import com.querydsl.core.types.EntityPath;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class SearchQuery<T> extends AbstractSearchQuery<T, SearchQuery<T>> {
 

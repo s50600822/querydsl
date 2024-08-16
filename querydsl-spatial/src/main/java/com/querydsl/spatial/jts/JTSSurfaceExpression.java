@@ -27,7 +27,7 @@ import com.vividsolutions.jts.geom.Point;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSSurfaceExpression<T extends Geometry> extends JTSGeometryExpression<T> {
 

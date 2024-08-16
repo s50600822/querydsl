@@ -30,7 +30,7 @@ import com.querydsl.core.types.dsl.NumberExpression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class PolygonExpression<T extends Polygon> extends SurfaceExpression<T> {
 

@@ -26,7 +26,7 @@ import com.querydsl.core.types.dsl.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class GeometryExpression<T extends Geometry> extends SimpleExpression<T> {
 

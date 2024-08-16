@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class MultiLineStringPath<T extends MultiLineString> extends MultiLineStringExpression<T> implements Path<T> {
 

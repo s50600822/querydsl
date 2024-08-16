@@ -29,7 +29,7 @@ import java.lang.reflect.AnnotatedElement;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSLineStringPath<T extends LineString> extends JTSLineStringExpression<T> implements Path<T> {
 

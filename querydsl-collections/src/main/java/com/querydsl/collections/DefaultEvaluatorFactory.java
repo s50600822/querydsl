@@ -89,7 +89,7 @@ public class DefaultEvaluatorFactory {
     /**
      * Create an Evaluator for the given query sources and projection
      *
-     * @param <T>
+     * @param <T> the type
      * @param metadata query metadata
      * @param sources sources of the query
      * @param projection projection of the query
@@ -133,7 +133,7 @@ public class DefaultEvaluatorFactory {
     /**
      * Create an Evaluator for the given source and filter
      *
-     * @param <T>
+     * @param <T> the type
      * @param source source of the query
      * @param filter filter of the query
      * @return evaluator

@@ -24,7 +24,7 @@ import com.vividsolutions.jts.geom.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSGeometryPath<T extends Geometry> extends JTSGeometryExpression<T> implements Path<T> {
 

@@ -21,7 +21,7 @@ import com.vividsolutions.jts.geom.MultiPolygon;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSMultiPolygonExpression<T extends MultiPolygon> extends JTSMultiSurfaceExpression<T> {
 

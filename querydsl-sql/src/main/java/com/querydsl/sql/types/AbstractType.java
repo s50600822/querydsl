@@ -18,7 +18,7 @@ package com.querydsl.sql.types;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class AbstractType<T> implements Type<T> {
 

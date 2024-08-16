@@ -30,7 +30,7 @@ import com.vividsolutions.jts.geom.Point;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSCurveExpression<T extends Geometry> extends JTSGeometryExpression<T> {
 

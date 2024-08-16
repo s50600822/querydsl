@@ -27,7 +27,7 @@ public final class JDOExpressions {
      * Create a new detached {@link JDOQuery} instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(expr)
      */
     public static <T> JDOQuery<T> select(Expression<T> expr) {
@@ -48,7 +48,7 @@ public final class JDOExpressions {
      * Create a new detached {@link JDOQuery} instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(distinct expr)
      */
     public static <T> JDOQuery<T> selectDistinct(Expression<T> expr) {
@@ -88,7 +88,7 @@ public final class JDOExpressions {
      * Create a new detached {@link JDOQuery} instance with the given projection
      *
      * @param expr projection and source
-     * @param <T>
+     * @param <T> the type
      * @return select(expr).from(expr)
      */
     public static <T> JDOQuery<T> selectFrom(EntityPath<T> expr) {

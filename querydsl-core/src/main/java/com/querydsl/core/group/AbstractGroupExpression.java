@@ -21,7 +21,7 @@ import com.querydsl.core.types.dsl.Expressions;
  * A base class for GroupExpressions
  * @author sasa
  *
- * @param <T>
+ * @param <T> the type
  * @param <R>
  */
 public abstract class AbstractGroupExpression<T, R> implements GroupExpression<T, R> {

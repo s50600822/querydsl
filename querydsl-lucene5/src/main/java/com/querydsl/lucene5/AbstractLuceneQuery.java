@@ -57,7 +57,7 @@ import java.util.function.Function;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  *            projection type
  * @param <Q>
  *            concrete subtype of querydsl

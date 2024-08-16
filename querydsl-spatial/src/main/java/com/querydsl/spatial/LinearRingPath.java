@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class LinearRingPath<T extends LinearRing> extends LinearRingExpression<T> implements Path<T> {
 

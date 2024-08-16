@@ -21,7 +21,7 @@ import org.locationtech.jts.geom.MultiLineString;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSMultiLineStringExpression<T extends MultiLineString> extends JTSMultiCurveExpression<T> {
 

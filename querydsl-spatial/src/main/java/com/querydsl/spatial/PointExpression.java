@@ -28,7 +28,7 @@ import com.querydsl.core.types.dsl.NumberExpression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class PointExpression<T extends Point> extends GeometryExpression<T> {
 

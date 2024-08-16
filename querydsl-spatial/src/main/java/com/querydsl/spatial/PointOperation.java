@@ -26,7 +26,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class PointOperation<T extends Point> extends PointExpression<T> implements Operation<T> {
 

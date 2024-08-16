@@ -26,7 +26,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class PolygonOperation<T extends Polygon> extends PolygonExpression<T> implements Operation<T> {
 

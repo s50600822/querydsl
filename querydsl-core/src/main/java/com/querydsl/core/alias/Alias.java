@@ -126,7 +126,7 @@ public final class Alias {
      * Convert the given alias to an expression
      *
      * @param arg alias
-     * @param <T>
+     * @param <T> the type
      * @return expression
      */
     public static <T extends Enum<T>> EnumPath<T> $(T arg) {

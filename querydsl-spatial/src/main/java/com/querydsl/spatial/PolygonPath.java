@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class PolygonPath<T extends Polygon> extends PolygonExpression<T> implements Path<T> {
 

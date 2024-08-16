@@ -30,7 +30,7 @@ import java.util.function.Function;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public final class ResultIterator<T> implements CloseableIterator<T> {
 

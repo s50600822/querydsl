@@ -24,7 +24,7 @@ import com.vividsolutions.jts.geom.Polygon;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSPolygonPath<T extends Polygon> extends JTSPolygonExpression<T> implements Path<T> {
 

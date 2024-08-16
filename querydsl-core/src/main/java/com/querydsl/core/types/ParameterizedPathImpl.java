@@ -16,7 +16,7 @@ package com.querydsl.core.types;
 /**
  * {@code ParameterizedPathImpl} represents {@link Path} instances with a parameterized generic type
  *
- * @param <T>
+ * @param <T> the type
  */
 public class ParameterizedPathImpl<T> extends PathImpl<T> implements ParameterizedExpression<T> {
 

@@ -25,7 +25,7 @@ import com.vividsolutions.jts.geom.LineString;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSLineStringOperation<T extends LineString> extends JTSLineStringExpression<T> implements Operation<T> {
 

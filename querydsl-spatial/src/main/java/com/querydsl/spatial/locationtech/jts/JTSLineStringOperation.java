@@ -30,7 +30,7 @@ import java.util.List;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSLineStringOperation<T extends LineString> extends JTSLineStringExpression<T> implements Operation<T> {
 

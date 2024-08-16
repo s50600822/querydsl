@@ -23,7 +23,7 @@ import java.sql.Types;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class EnumByOrdinalType<T extends Enum<T>> extends AbstractType<T> {
 

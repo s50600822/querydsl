@@ -22,7 +22,7 @@ import com.querydsl.core.types.Ops;
 /**
  * {@code LiteralExpression} represents literal expressions
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class LiteralExpression<T extends Comparable> extends ComparableExpression<T> {
 

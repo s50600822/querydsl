@@ -30,7 +30,7 @@ import com.querydsl.core.util.CollectionUtils;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class WindowFirstLast<T> extends MutableExpressionBase<T> {
 

@@ -18,7 +18,7 @@ import java.io.IOException;
 /**
  * @author tiwe
  * 
- * @param <T>
+ * @param <T> the type
  */
 public abstract class AbstractCodeWriter<T extends AbstractCodeWriter<T>> implements Appendable,
         CodeWriter {

@@ -29,7 +29,7 @@ import java.lang.reflect.AnnotatedElement;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSMultiPointPath<T extends MultiPoint> extends JTSMultiPointExpression<T> implements Path<T> {
 

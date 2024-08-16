@@ -23,7 +23,7 @@ import com.querydsl.core.types.dsl.SimpleExpression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class RelationalFunctionCall<T> extends SimpleExpression<T> implements TemplateExpression<T> {
 

@@ -41,7 +41,7 @@ public interface JPQLQueryFactory extends QueryFactory<JPQLQuery<?>> {
      * Create a new JPQLQuery instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(expr)
      */
     <T> JPQLQuery<T> select(Expression<T> expr);
@@ -58,7 +58,7 @@ public interface JPQLQueryFactory extends QueryFactory<JPQLQuery<?>> {
      * Create a new JPQLQuery instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(distinct expr)
      */
     <T> JPQLQuery<T> selectDistinct(Expression<T> expr);
@@ -89,7 +89,7 @@ public interface JPQLQueryFactory extends QueryFactory<JPQLQuery<?>> {
      * Create a new JPQLQuery instance with the given source and projection
      *
      * @param from projection and source
-     * @param <T>
+     * @param <T> the type
      * @return select(from).from(from)
      */
     <T> JPQLQuery<T> selectFrom(EntityPath<T> from);

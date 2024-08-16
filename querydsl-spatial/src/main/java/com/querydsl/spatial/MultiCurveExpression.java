@@ -25,7 +25,7 @@ import org.jetbrains.annotations.Nullable;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class MultiCurveExpression<T extends AbstractGeometryCollection> extends AbstractGeometryCollectionExpression<T> {
 

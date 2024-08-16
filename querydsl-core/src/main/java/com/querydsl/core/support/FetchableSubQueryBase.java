@@ -25,7 +25,7 @@ import com.querydsl.core.types.dsl.Expressions;
 /**
  * {@code FetchableSubQueryBase} extends {@link com.querydsl.core.support.FetchableQueryBase} to provide fluent Expression creation functionality
  *
- * @param <T>
+ * @param <T> the type
  * @param <Q>
  */
 public abstract class FetchableSubQueryBase<T, Q extends FetchableSubQueryBase<T, Q>> extends FetchableQueryBase<T, Q>

@@ -30,7 +30,7 @@ import java.util.List;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSPointOperation<T extends Point> extends JTSPointExpression<T> implements Operation<T> {
 

@@ -24,7 +24,7 @@ import com.vividsolutions.jts.geom.LinearRing;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSLinearRingPath<T extends LinearRing> extends JTSLinearRingExpression<T> implements Path<T> {
 

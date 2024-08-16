@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class LineStringPath<T extends LineString> extends LineStringExpression<T> implements Path<T> {
 

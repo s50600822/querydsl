@@ -30,7 +30,7 @@ public interface StoreClause<C extends StoreClause<C>> extends DMLClause<C> {
     /**
      * Add a value binding
      *
-     * @param <T>
+     * @param <T> the type
      * @param path path to be updated
      * @param value value to set
      * @return the current object
@@ -40,7 +40,7 @@ public interface StoreClause<C extends StoreClause<C>> extends DMLClause<C> {
     /**
      * Add an expression binding
      *
-     * @param <T>
+     * @param <T> the type
      * @param path path to be updated
      * @param expression binding
      * @return the current object

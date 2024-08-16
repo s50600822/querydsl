@@ -26,7 +26,7 @@ import com.querydsl.core.types.*;
  * @author tiwe
  *
  * @param <K>
- * @param <T>
+ * @param <T> the type
  */
 public abstract class AbstractGroupByTransformer<K, T> implements ResultTransformer<T> {
 

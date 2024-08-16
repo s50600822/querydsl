@@ -28,7 +28,7 @@ import com.vividsolutions.jts.geom.GeometryCollection;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSGeometryCollectionExpression<T extends GeometryCollection> extends JTSGeometryExpression<T> {
 

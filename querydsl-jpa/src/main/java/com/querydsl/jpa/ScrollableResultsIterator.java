@@ -26,7 +26,7 @@ import com.mysema.commons.lang.CloseableIterator;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class ScrollableResultsIterator<T> implements CloseableIterator<T> {
 

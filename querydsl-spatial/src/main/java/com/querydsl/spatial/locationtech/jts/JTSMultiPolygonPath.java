@@ -29,7 +29,7 @@ import java.lang.reflect.AnnotatedElement;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSMultiPolygonPath<T extends MultiPolygon> extends JTSMultiPolygonExpression<T> implements Path<T> {
 

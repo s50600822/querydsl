@@ -28,7 +28,7 @@ import com.querydsl.core.QueryException;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class SQLResultIterator<T> implements CloseableIterator<T> {
 

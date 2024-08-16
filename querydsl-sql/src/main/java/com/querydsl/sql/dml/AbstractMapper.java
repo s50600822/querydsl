@@ -24,7 +24,7 @@ import com.querydsl.sql.RelationalPath;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class AbstractMapper<T> implements Mapper<T> {
 

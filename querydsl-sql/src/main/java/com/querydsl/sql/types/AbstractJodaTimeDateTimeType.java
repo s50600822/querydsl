@@ -9,7 +9,7 @@ import java.util.TimeZone;
 /**
  * Common abstract superclass for Type implementations for Joda-Time
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class AbstractJodaTimeDateTimeType<T> extends AbstractType<T> {
 

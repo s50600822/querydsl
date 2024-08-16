@@ -29,7 +29,7 @@ import org.jetbrains.annotations.Nullable;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSPolygonExpression<T extends Polygon> extends JTSSurfaceExpression<T> {
 

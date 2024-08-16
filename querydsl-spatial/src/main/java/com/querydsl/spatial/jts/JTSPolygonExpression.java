@@ -30,7 +30,7 @@ import com.vividsolutions.jts.geom.Polygon;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSPolygonExpression<T extends Polygon> extends JTSSurfaceExpression<T> {
 

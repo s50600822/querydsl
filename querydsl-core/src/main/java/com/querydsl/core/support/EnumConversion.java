@@ -26,7 +26,7 @@ import com.querydsl.core.types.Visitor;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class EnumConversion<T> extends FactoryExpressionBase<T> {
 

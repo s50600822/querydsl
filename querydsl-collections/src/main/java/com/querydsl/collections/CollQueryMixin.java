@@ -26,7 +26,7 @@ import com.querydsl.core.types.dsl.Expressions;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class CollQueryMixin<T> extends QueryMixin<T> {
 

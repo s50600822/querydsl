@@ -71,7 +71,7 @@ public final class JTSGeometryExpressions {
      *
      * @param expr geometry
      * @param srid SRID
-     * @param <T>
+     * @param <T> the type
      * @return geometry
      */
     public static <T extends Geometry> JTSGeometryExpression<T> setSRID(Expression<T> expr, int srid) {
@@ -184,7 +184,7 @@ public final class JTSGeometryExpressions {
      * @param expr geometry
      * @param deltax x offset
      * @param deltay y offset
-     * @param <T>
+     * @param <T> the type
      * @return geometry
      */
     public static <T extends Geometry> JTSGeometryExpression<T> translate(Expression<T> expr, float deltax, float deltay) {
@@ -199,7 +199,7 @@ public final class JTSGeometryExpressions {
      * @param deltax x offset
      * @param deltay y offset
      * @param deltaz z offset
-     * @param <T>
+     * @param <T> the type
      * @return geometry
      */
     public static <T extends Geometry> JTSGeometryExpression<T> translate(Expression<T> expr, float deltax, float deltay, float deltaz) {

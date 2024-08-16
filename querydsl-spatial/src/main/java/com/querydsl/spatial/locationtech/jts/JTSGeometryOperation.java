@@ -30,7 +30,7 @@ import java.util.List;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSGeometryOperation<T extends Geometry> extends JTSGeometryExpression<T> implements Operation<T> {
 

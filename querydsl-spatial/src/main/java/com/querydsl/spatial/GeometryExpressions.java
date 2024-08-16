@@ -60,7 +60,7 @@ public final class GeometryExpressions {
      *
      * @param expr geometry
      * @param srid SRID
-     * @param <T>
+     * @param <T> the type
      * @return converted geometry
      */
     public static <T extends Geometry> GeometryExpression<T> setSRID(Expression<T> expr, int srid) {
@@ -172,7 +172,7 @@ public final class GeometryExpressions {
      * @param expr geometry
      * @param deltax x offset
      * @param deltay y offset
-     * @param <T>
+     * @param <T> the type
      * @return geometry
      */
     public static <T extends Geometry> GeometryExpression<T> translate(Expression<T> expr, float deltax, float deltay) {
@@ -187,7 +187,7 @@ public final class GeometryExpressions {
      * @param deltax x offset
      * @param deltay y offset
      * @param deltaz z offset
-     * @param <T>
+     * @param <T> the type
      * @return geometry
      */
     public static <T extends Geometry> GeometryExpression<T> translate(Expression<T> expr, float deltax, float deltay, float deltaz) {

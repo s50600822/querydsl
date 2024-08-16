@@ -24,7 +24,7 @@ import com.querydsl.core.types.dsl.BooleanOperation;
  * {@code ExtendedSubQuery} extends the {@link com.querydsl.core.types.SubQueryExpression} interface to provide fluent
  * expression creation functionality
  *
- * @param <T>
+ * @param <T> the type
  */
 public interface ExtendedSubQuery<T> extends SubQueryExpression<T> {
 

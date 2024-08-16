@@ -22,7 +22,7 @@ import com.querydsl.core.util.PrimitiveUtils;
 /**
  *{@code ArrayType} maps Java arrays to JDBC arrays
  *
- * @param <T>
+ * @param <T> the type
  */
 public class ArrayType<T> extends AbstractType<T> {
 

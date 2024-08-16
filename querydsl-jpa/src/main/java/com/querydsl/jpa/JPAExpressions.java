@@ -43,7 +43,7 @@ public final class JPAExpressions {
      * Create a new detached JPQLQuery instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(expr)
      */
     public static <T> JPQLQuery<T> select(Expression<T> expr) {
@@ -64,7 +64,7 @@ public final class JPAExpressions {
      * Create a new detached JPQLQuery instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(distinct expr)
      */
     public static <T> JPQLQuery<T> selectDistinct(Expression<T> expr) {
@@ -103,7 +103,7 @@ public final class JPAExpressions {
      * Create a new detached JPQLQuery instance with the given projection
      *
      * @param expr projection and source
-     * @param <T>
+     * @param <T> the type
      * @return select(expr).from(expr)
      */
     public static <T> JPQLQuery<T> selectFrom(EntityPath<T> expr) {

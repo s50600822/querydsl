@@ -32,7 +32,7 @@ import com.querydsl.core.types.dsl.NumberExpression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  *            entity type
  */
 public class RelationalPathBase<T> extends BeanPath<T> implements RelationalPath<T> {

@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class GeometryCollectionPath<T extends GeometryCollection> extends GeometryCollectionExpression<T> implements Path<T> {
 

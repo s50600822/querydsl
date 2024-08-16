@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * @author tiwe
  * 
- * @param <T>
+ * @param <T> the type
  */
 public final class MethodEvaluator<T> implements Evaluator<T> {
 

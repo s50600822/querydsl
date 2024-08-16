@@ -25,7 +25,7 @@ import java.util.Collections;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class WindowOver<T> extends SimpleOperation<T> {
 

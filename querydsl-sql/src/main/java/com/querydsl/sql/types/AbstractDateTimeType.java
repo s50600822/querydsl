@@ -22,7 +22,7 @@ import java.util.TimeZone;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class AbstractDateTimeType<T>  extends AbstractType<T> {
 

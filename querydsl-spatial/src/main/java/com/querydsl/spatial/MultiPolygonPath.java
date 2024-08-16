@@ -25,7 +25,7 @@ import com.querydsl.core.types.*;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class MultiPolygonPath<T extends MultiPolygon> extends MultiPolygonExpression<T> implements Path<T> {
 

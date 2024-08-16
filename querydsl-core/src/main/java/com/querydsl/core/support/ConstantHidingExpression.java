@@ -23,7 +23,7 @@ import com.querydsl.core.types.dsl.Expressions;
 
 /**
  * {@code ConstantHidingExpression} removes constants from the argument list and injects them back into the result chain
- * @param <T>
+ * @param <T> the type
  */
 public class ConstantHidingExpression<T> extends FactoryExpressionBase<T> {
 

@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Common superclass for {@link FactoryExpression} implementations
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class FactoryExpressionBase<T> extends ExpressionBase<T> implements FactoryExpression<T> {
 

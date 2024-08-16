@@ -28,7 +28,7 @@ import com.querydsl.core.util.BeanMap;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class CollUpdateClause<T> implements UpdateClause<CollUpdateClause<T>> {
 

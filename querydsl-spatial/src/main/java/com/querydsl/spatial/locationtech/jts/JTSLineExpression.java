@@ -21,7 +21,7 @@ import org.locationtech.jts.geom.LineString;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSLineExpression<T extends LineString> extends JTSLineStringExpression<T> {
 

@@ -24,7 +24,7 @@ import com.vividsolutions.jts.geom.LineString;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSLineStringPath<T extends LineString> extends JTSLineStringExpression<T> implements Path<T> {
 

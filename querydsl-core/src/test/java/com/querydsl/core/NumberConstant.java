@@ -35,7 +35,7 @@ final class NumberConstant<D extends Number & Comparable<?>> extends NumberExpre
     /**
      * Factory method
      *
-     * @param <T>
+     * @param <T> the type
      * @param val
      * @return
      */

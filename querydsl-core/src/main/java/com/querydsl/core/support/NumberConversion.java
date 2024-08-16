@@ -27,7 +27,7 @@ import com.querydsl.core.util.MathUtils;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class NumberConversion<T> extends FactoryExpressionBase<T> {
 

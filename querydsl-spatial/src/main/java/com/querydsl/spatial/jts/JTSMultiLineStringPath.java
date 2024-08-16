@@ -24,7 +24,7 @@ import com.vividsolutions.jts.geom.MultiLineString;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSMultiLineStringPath<T extends MultiLineString> extends JTSMultiLineStringExpression<T> implements Path<T> {
 

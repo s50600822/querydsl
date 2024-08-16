@@ -240,7 +240,7 @@ public final class Configuration {
     /**
      * Set the value at the given index in the statement
      *
-     * @param <T>
+     * @param <T> the type
      * @param stmt statement
      * @param path path
      * @param i one based index in statement

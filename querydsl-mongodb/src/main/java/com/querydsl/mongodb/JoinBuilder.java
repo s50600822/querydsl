@@ -26,7 +26,7 @@ import com.querydsl.core.types.Predicate;
  *
  * @param <Q>
  * @param <K>
- * @param <T>
+ * @param <T> the type
  */
 public class JoinBuilder<Q extends AbstractMongodbQuery<K, Q>, K, T> {
 

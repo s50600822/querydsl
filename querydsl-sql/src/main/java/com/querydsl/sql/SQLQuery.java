@@ -25,7 +25,7 @@ import com.querydsl.core.types.Expression;
  * {@code SQLQuery} is a JDBC based implementation of the {@link SQLCommonQuery}
  * interface
  *
- * @param <T>
+ * @param <T> the type
  * @author tiwe
  */
 public class SQLQuery<T> extends AbstractSQLQuery<T, SQLQuery<T>> {

@@ -22,7 +22,7 @@ import com.querydsl.core.types.PathMetadata;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 @SuppressWarnings("unchecked")
 public class ComparableEntityPath<T extends Comparable> extends ComparablePath<T> implements EntityPath<T> {

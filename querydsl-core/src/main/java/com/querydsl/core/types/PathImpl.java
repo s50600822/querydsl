@@ -25,7 +25,7 @@ import com.querydsl.core.util.ReflectionUtils;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 @Immutable
 public class PathImpl<T> extends ExpressionBase<T> implements Path<T> {

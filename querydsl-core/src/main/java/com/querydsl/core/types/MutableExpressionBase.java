@@ -19,7 +19,7 @@ package com.querydsl.core.types;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class MutableExpressionBase<T> implements Expression<T> {
 

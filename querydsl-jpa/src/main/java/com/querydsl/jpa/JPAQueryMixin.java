@@ -38,7 +38,7 @@ import com.querydsl.core.types.dsl.CollectionPathBase;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JPAQueryMixin<T> extends QueryMixin<T> {
 

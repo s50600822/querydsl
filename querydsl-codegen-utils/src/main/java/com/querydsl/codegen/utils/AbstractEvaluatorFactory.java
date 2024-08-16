@@ -99,7 +99,7 @@ public abstract class AbstractEvaluatorFactory implements EvaluatorFactory {
     /**
      * Create a new Evaluator instance
      * 
-     * @param <T>
+     * @param <T> the type
      *            projection type
      * @param source
      *            expression in Java source code form

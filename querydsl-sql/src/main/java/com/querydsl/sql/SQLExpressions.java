@@ -105,7 +105,7 @@ public final class SQLExpressions {
      *
      * @param target target expression
      * @param value value to be set
-     * @param <T>
+     * @param <T> the type
      * @return target = value
      */
     public static <T> Expression<T> set(Path<T> target, Expression<? extends T> value) {
@@ -123,7 +123,7 @@ public final class SQLExpressions {
      *
      * @param target target expression
      * @param value value to be set
-     * @param <T>
+     * @param <T> the type
      * @return target = value
      */
     public static <T> Expression<T> set(Path<T> target, T value) {
@@ -141,7 +141,7 @@ public final class SQLExpressions {
      * Create a new detached SQLQuery instance with the given projection
      *
      * @param expr projection
-     * @param <T>
+     * @param <T> the type
      * @return select(expr)
      */
     public static <T> SQLQuery<T> select(Expression<T> expr) {
@@ -162,7 +162,7 @@ public final class SQLExpressions {
      * Create a new detached SQLQuery instance with the given projection
      *
      * @param expr distinct projection
-     * @param <T>
+     * @param <T> the type
      * @return select(distinct expr)
      */
     public static <T> SQLQuery<T> selectDistinct(Expression<T> expr) {
@@ -201,7 +201,7 @@ public final class SQLExpressions {
      * Create a new detached SQLQuery instance with the given projection
      *
      * @param expr query source and projection
-     * @param <T>
+     * @param <T> the type
      * @return select(expr).from(expr)
      */
     public static <T> SQLQuery<T> selectFrom(RelationalPath<T> expr) {
@@ -212,7 +212,7 @@ public final class SQLExpressions {
      * Create a new UNION clause
      *
      * @param sq subqueries
-     * @param <T>
+     * @param <T> the type
      * @return union
      */
     public static <T> Union<T> union(SubQueryExpression<T>... sq) {
@@ -223,7 +223,7 @@ public final class SQLExpressions {
      * Create a new UNION clause
      *
      * @param sq subqueries
-     * @param <T>
+     * @param <T> the type
      * @return union
      */
     public static <T> Union<T> union(List<SubQueryExpression<T>> sq) {
@@ -234,7 +234,7 @@ public final class SQLExpressions {
      * Create a new UNION ALL clause
      *
      * @param sq subqueries
-     * @param <T>
+     * @param <T> the type
      * @return union
      */
     public static <T> Union<T> unionAll(SubQueryExpression<T>... sq) {
@@ -245,7 +245,7 @@ public final class SQLExpressions {
      * Create a new UNION ALL clause
      *
      * @param sq subqueries
-     * @param <T>
+     * @param <T> the type
      * @return union
      */
     public static <T> Union<T> unionAll(List<SubQueryExpression<T>> sq) {
@@ -272,7 +272,7 @@ public final class SQLExpressions {
      * @param type type
      * @param function function name
      * @param args arguments
-     * @param <T>
+     * @param <T> the type
      * @return relational function call
      */
     public static <T> RelationalFunctionCall<T> relationalFunctionCall(Class<? extends T> type, String function, Object... args) {

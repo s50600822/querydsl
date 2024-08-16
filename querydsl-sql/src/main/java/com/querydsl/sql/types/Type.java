@@ -27,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public interface Type<T> {
 

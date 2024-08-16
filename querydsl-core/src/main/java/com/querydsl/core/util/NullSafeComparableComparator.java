@@ -21,7 +21,7 @@ import java.util.Comparator;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class NullSafeComparableComparator<T extends Comparable<T>> implements Comparator<T>, Serializable {
 

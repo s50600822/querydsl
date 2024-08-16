@@ -26,7 +26,7 @@ import com.querydsl.sql.RelationalPathBase;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class RelationalPathSpatial<T> extends RelationalPathBase<T> implements GeometryPaths {
 

@@ -27,7 +27,7 @@ import com.vividsolutions.jts.geom.GeometryCollection;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSMultiCurveExpression<T extends GeometryCollection> extends JTSGeometryCollectionExpression<T> {
 

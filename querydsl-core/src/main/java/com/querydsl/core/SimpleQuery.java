@@ -63,7 +63,7 @@ public interface SimpleQuery<Q extends SimpleQuery<Q>> extends FilteredClause<Q>
     /**
      * Set the given parameter to the given value
      *
-     * @param <T>
+     * @param <T> the type
      * @param param param
      * @param value binding
      * @return the current object

@@ -29,7 +29,7 @@ import com.querydsl.core.types.dsl.NumberExpression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class LineStringExpression<T extends LineString> extends CurveExpression<T> {
 

@@ -24,7 +24,7 @@ import com.vividsolutions.jts.geom.MultiPoint;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public class JTSMultiPointPath<T extends MultiPoint> extends JTSMultiPointExpression<T> implements Path<T> {
 

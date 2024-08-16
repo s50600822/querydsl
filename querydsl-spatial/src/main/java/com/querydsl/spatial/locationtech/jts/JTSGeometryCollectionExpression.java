@@ -27,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class JTSGeometryCollectionExpression<T extends GeometryCollection> extends JTSGeometryExpression<T> {
 

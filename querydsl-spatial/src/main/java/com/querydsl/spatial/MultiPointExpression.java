@@ -24,7 +24,7 @@ import com.querydsl.core.types.Expression;
  *
  * @author tiwe
  *
- * @param <T>
+ * @param <T> the type
  */
 public abstract class MultiPointExpression<T extends MultiPoint> extends AbstractGeometryCollectionExpression<T> {
 
